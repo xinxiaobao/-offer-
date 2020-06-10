@@ -7,7 +7,6 @@ class Solution:
     def duplicate(self, numbers, duplication):
         # write code here
         dic = {}
-        res = set()
         for num in numbers:
             if num in dic:
                 duplication[0] = num
