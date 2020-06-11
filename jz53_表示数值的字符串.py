@@ -5,7 +5,7 @@ class Solution:
     def isNumeric(self, s):
         # write code here
         try: 
-            digit = float(s)
+            float(s)
             return True
         except:
             return False
